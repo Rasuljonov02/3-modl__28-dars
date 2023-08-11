@@ -1,0 +1,21 @@
+@mixin font($color, $size, $stil, $withe, $spacing) {
+  color: $color;
+  font-family: Inter;
+  font-size: $size;
+  font-style: $stil;
+  font-weight: $withe;
+  line-height: normal;
+  letter-spacing: $spacing;
+}
+
+
+
+@mixin funcsion($color, $size, $style, $weight, $height, $spacing) {
+  color: $color;
+  font-family: Inter;
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $spacing;
+}

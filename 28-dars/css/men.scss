@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.asosiy {
+  background-color: rgb(97, 89, 89);
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 2px;
+  .box1 {
+    width: 20%;
+    height: auto;
+    border-right: 1.5px solid #262835;
+    background: var(--sidebar-background, #171b2d);
+  }
+  .box2 {
+    width: 100%;
+    height: auto;
+    border-right: 1.5px solid #262835;
+    background: var(--sidebar-background, #171B2D);
+    // background-color: rgb(179, 212, 212);
+  }
+  .box {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+}
+
+@import "./scss/index";

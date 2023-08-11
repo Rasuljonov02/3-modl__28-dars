@@ -1,0 +1,30 @@
+@import "funksiy";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.mennular {
+  margin-top: 50px;
+  height: 920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .kok {
+    color: #42bbff;
+  }
+  h4 {
+    @include font(#adb3cc, 14px, normal, 500, -0.14px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+  }
+  p {
+    @include font(#55597d, 10px, normal, 400, 0px);
+
+    text-transform: uppercase;
+  }
+}

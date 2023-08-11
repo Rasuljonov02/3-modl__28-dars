@@ -1,0 +1,231 @@
+@import "funksiy";
+
+.MEN {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+.hesd {
+  p {
+    @include font(#424a70, 14px, normal, 400, 0px);
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .p {
+    border-radius: 8px;
+    background: #1d2032;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+    @include font(#555c7e, 14px, normal, 400, 0px);
+  }
+  .sapn {
+    a {
+      @include font(#43444d, 14px, normal, 400, -0.28px);
+      text-decoration: none;
+    }
+    .a {
+      @include font(#5e617e, 14px, normal, 400, -0.28px);
+    }
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  span {
+    p {
+      @include font(#55597d, 10px, normal, 400, 0);
+    }
+    h3 {
+      @include font(#adb3cc, 16px, normal, 600, 0);
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.h2 {
+  @include font(#adb3cc, 32px, normal, 600, -0.64px);
+  margin-left: 80px;
+  padding: 20px 0;
+}
+.site {
+  margin-top: 20px;
+  display: flex;
+  padding: 0 80px;
+  justify-content: space-between;
+  h3 {
+    @include font(#adb3cc, 20px, normal, 600, -0.4px);
+  }
+  h4,
+  p {
+    @include font(#585f80, 14px, normal, 400, -0.28px);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.visitors {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  align-items: center;
+  .ip {
+    @include font(#42bbff, 15px, normal, 400, -0.28px);
+  }
+  .pages {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    border-radius: 12px;
+    background: #0329e8;
+    padding: 30px;
+    span {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    p {
+      @include font(#effff7, 16px, normal, 400, -0.32px);
+    }
+    h2 {
+      @include font(#ddeffa, 58px, normal, 600, -1.16px);
+    }
+  }
+  .bunse {
+    border-radius: 12px;
+    background: #1a1e30;
+    p {
+      @include font(#effff7, 16px, normal, 400, -0.32px);
+    }
+    h2 {
+      @include font(#17b1ea, 58px, normal, 600, -1.16px);
+    }
+    .as {
+      color: red;
+    }
+    .aq {
+      color: #00de73;
+    }
+  }
+}
+.aloo {
+  img {
+    height: 210px;
+    width: 310px;
+  }
+}
+
+.ivisitors {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: flex-start;
+  align-items: center;
+  .ip {
+    @include font(#42bbff, 15px, normal, 400, -0.28px);
+  }
+  .pages {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    border-radius: 12px;
+    background: #1a1e30;
+    padding: 30px;
+    span {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    p {
+      @include font(#effff7, 16px, normal, 400, -0.32px);
+    }
+    h2 {
+      @include font(#ddeffa, 58px, normal, 600, -1.16px);
+    }
+    .aq {
+      color: #00de73;
+    }
+    .as {
+      color: #00de73;
+    }
+  }
+}
+// @import "./funcsion";
+
+.sites {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  p {
+    @include funcsion(#adb3cc, 14px, normal, 400, normal, none);
+  }
+  hr {
+    background-color: #adb3cc;
+  }
+}
+.line {
+  width: 994px;
+  height: 1px;
+  background-color: #adb3cc;
+}
+.title {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.link {
+  display: flex;
+  align-items: center;
+  p {
+    @include font(#adb3cc, 14px, normal, 400, -0.28px);
+  }
+}
+.title_1 {
+  display: flex;
+  gap: 240px;
+  p{
+    @include font(#55597D, 16px, normal, 400, -0.32px);
+
+
+
+
+
+  }
+}
+.num {
+  display: flex;
+  gap: 23px;
+}
+.l {
+  width: 239px;
+  height: 19px;
+}
+.total {
+  display: flex;
+  width: 123px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.type {
+  display: flex;
+  width: 308px;
+  padding: 10px 17px 10px 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
